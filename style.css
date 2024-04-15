@@ -59,5 +59,10 @@ body {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center; 
-    transition: 0.7s ease-out background-size, 0.7s flex ease-out ;
+    transition: 0.7s ease-out background-size, 0.7s flex ease-out;
+}
+
+.zoomOut h3 {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
 }
